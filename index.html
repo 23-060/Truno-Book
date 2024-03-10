@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -53,10 +53,15 @@
           <i data-feather="search"></i>
         </button>
       </form>
-      <dic class="navbar-extra">
-        <a href="Login.html" id="user" class="user"
-          ><i data-feather="user"></i></a
-      ></dic>
+      <div class="navbar-extra">
+        <div class="navbar-toggle" id="dark-mode-toggle">
+          <i class="light-only" data-feather="moon"></i>
+          <i class="dark-only" data-feather="sun"></i>
+        </div>
+          <a href="Login.html" id="user" class="user">
+            <i data-feather="user"></i>
+          </a>
+      </div>
 
       <div class="navbar-nav">
         <a href="index.html">Home</a>
